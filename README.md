@@ -17,6 +17,8 @@ In this pattern, essentially we are going back to event publishers and re-publis
 
 In pattern 2 we are enabling Event Hub feature called Capture. It automatically captures the streaming data in Azure Blob storage of your choice with flexibility of specifying a time or size interval.Captured data is written in Apache Avro format: a compact, fast, binary format that provides rich data structures with inline schema.
 
+For complete details about event hub capture please read documentation [here.](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-capture-overview)
+
 `Enabling Capture incurs a charge based on your purchased throughput units.`
 
 ![alt text](https://raw.githubusercontent.com/msatmsft/event-hub-replay/master/img/replay_pattern2.JPG)
