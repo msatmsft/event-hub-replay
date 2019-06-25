@@ -1,4 +1,4 @@
-# event-hub-replay
+# Event Hub Send & Replay
 Solution architecture and source code for azure event hub message reply using event hub capture to azure storage account
 
 Often times distributed systems need to perfrom replay of events that happend in past. One of many reasons could be re-processing events with new business logic.
