@@ -1,4 +1,4 @@
-# Send events to Azure Event Hubs in .NET Standard
+# Send events to Azure Event Hubs in .NET Core
 
 This sample shows how to write a .NET Core console application that sends a set of events to an event hub. You can run the solution as-is, replacing the `EhConnectionString` and `EhEntityPath` strings with your event hub values. The sample is also [available as a tutorial](https://docs.microsoft.com/azure/event-hubs/event-hubs-dotnet-standard-getstarted-send).
 
